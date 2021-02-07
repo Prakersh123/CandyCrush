@@ -1,0 +1,1 @@
+It is developed in JavaScript , css and HTML.
