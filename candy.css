@@ -1,7 +1,21 @@
 .a
 {
-    width: 100px;
-    height: 100px;
+    width: 15%px;
+    height: 15%px;
     background-color: rgba(255,255,255,.65);
     /* border: 2px white solid; */
 }
+
+body { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
